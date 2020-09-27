@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name LCSC)(type KiCad)(uri "C:/Users/Shaun/Documents/GitHub/STM-LED-Driver/hardware/LED Driver STM/library")(options "")(descr ""))
+)
