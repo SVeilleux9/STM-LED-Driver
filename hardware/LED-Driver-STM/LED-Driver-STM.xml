@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Shaun\Documents\GitHub\STM-LED-Driver\hardware\LED Driver STM\LED Driver STM.sch</source>
-    <date>9/27/2020 1:03:53 PM</date>
+    <source>C:\Users\Shaun\Documents\GitHub\STM-LED-Driver\hardware\LED-Driver-STM\LED-Driver-STM.sch</source>
+    <date>9/27/2020 4:34:41 PM</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -10,7 +10,7 @@
         <company/>
         <rev/>
         <date/>
-        <source>LED Driver STM.sch</source>
+        <source>LED-Driver-STM.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -284,6 +284,7 @@
       <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
       <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf</datasheet>
       <fields>
+        <field name="LCSC">C23922</field>
         <field name="LCSC Part #">C23922</field>
       </fields>
       <libsource lib="MCU_ST_STM32F0" part="STM32F030C8Tx" description="ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2.4-3.6V, 39 GPIO, LQFP-48"/>
@@ -295,6 +296,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C11702</field>
         <field name="LCSC Part #">C11702</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -306,6 +308,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C15195</field>
         <field name="LCSC Part #">C15195</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -317,9 +320,10 @@
       <footprint>LCSC:SW_TS-1187A-B-A-B</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C318884</field>
         <field name="LCSC Part #">C318884</field>
       </fields>
-      <libsource lib="LCSC_Button" part="TS-1187A-B-A-B" description=""/>
+      <libsource lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7153FD</tstamp>
     </comp>
@@ -328,6 +332,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C11702</field>
         <field name="LCSC Part #">C11702</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -339,6 +344,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C15195</field>
         <field name="LCSC Part #">C15195</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -350,9 +356,10 @@
       <footprint>LCSC:SW_TS-1187A-B-A-B</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C318884</field>
         <field name="LCSC Part #">C318884</field>
       </fields>
-      <libsource lib="LCSC_Button" part="TS-1187A-B-A-B" description=""/>
+      <libsource lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F71DB9F</tstamp>
     </comp>
@@ -361,6 +368,7 @@
       <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C13738</field>
         <field name="LCSC Part #">C13738</field>
       </fields>
       <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
@@ -372,6 +380,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C1547</field>
         <field name="LCSC Part #">C1547</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -383,6 +392,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C1547</field>
         <field name="LCSC Part #">C1547</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -394,6 +404,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25118</field>
         <field name="LCSC Part #">C25118</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -405,6 +416,7 @@
       <footprint>Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/cd00274221.pdf</datasheet>
       <fields>
+        <field name="LCSC">C15134</field>
         <field name="LCSC Part #">C15134</field>
       </fields>
       <libsource lib="Sensor_Motion" part="LIS3DH" description="3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16"/>
@@ -416,6 +428,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C1525</field>
         <field name="LCSC Part #">C1525</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -427,6 +440,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C15525</field>
         <field name="LCSC Part #">C15525</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -438,6 +452,7 @@
       <footprint>Package_LGA:LGA-16_4x4mm_P0.65mm_LayoutBorder4x4y</footprint>
       <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00036465.pdf</datasheet>
       <fields>
+        <field name="LCSC">C26444</field>
         <field name="LCSC Part #">C26444</field>
       </fields>
       <libsource lib="Sensor_Motion" part="L3GD20" description="[Not recommended for new designs] 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16"/>
@@ -449,6 +464,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C1525</field>
         <field name="LCSC Part #">C1525</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -460,6 +476,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C15525</field>
         <field name="LCSC Part #">C15525</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -471,6 +488,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
       <fields>
+        <field name="LCSC">C6186</field>
         <field name="LCSC Part #">C6186</field>
       </fields>
       <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
@@ -482,6 +500,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C1525</field>
         <field name="LCSC Part #">C1525</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -493,6 +512,7 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C15850</field>
         <field name="LCSC Part #">C15850</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -504,6 +524,7 @@
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C8598</field>
         <field name="LCSC Part #">C8598</field>
       </fields>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
@@ -515,6 +536,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C11702</field>
         <field name="LCSC Part #">C11702</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -526,6 +548,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C15195</field>
         <field name="LCSC Part #">C15195</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -537,9 +560,10 @@
       <footprint>LCSC:SW_TS-1187A-B-A-B</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C318884</field>
         <field name="LCSC Part #">C318884</field>
       </fields>
-      <libsource lib="LCSC_Button" part="TS-1187A-B-A-B" description=""/>
+      <libsource lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F86A090</tstamp>
     </comp>
@@ -548,6 +572,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -559,6 +584,7 @@
       <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C26443</field>
         <field name="LCSC Part #">C26443</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
@@ -570,6 +596,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C52923</field>
         <field name="LCSC Part #">C52923</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -581,6 +608,7 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C15195</field>
         <field name="LCSC Part #">C15195</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
@@ -648,6 +676,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -667,6 +696,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25744</field>
         <field name="LCSC Part #">C25744</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -678,17 +708,67 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25744</field>
         <field name="LCSC Part #">C25744</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F833B92</tstamp>
     </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F79222D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7931B4</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+        <field name="LCSC Part #">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F793570</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10u_25v</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="LCSC Part #">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F850543</tstamp>
+    </comp>
     <comp ref="R8">
       <value>75</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -700,6 +780,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -711,6 +792,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -722,6 +804,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -733,6 +816,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -744,6 +828,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -755,6 +840,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -766,6 +852,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -777,6 +864,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -788,6 +876,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -799,6 +888,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -810,6 +900,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -821,6 +912,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -832,6 +924,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -843,6 +936,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -854,6 +948,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -865,6 +960,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -876,6 +972,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -887,6 +984,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -898,6 +996,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -909,6 +1008,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -920,6 +1020,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -931,6 +1032,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -942,6 +1044,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -953,6 +1056,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -964,6 +1068,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -975,6 +1080,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -986,6 +1092,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -997,6 +1104,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1008,6 +1116,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1019,6 +1128,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1030,6 +1140,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1041,6 +1152,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1052,6 +1164,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1063,6 +1176,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1074,6 +1188,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1085,6 +1200,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1096,6 +1212,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1107,6 +1224,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1118,6 +1236,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1129,6 +1248,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1140,6 +1260,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1151,6 +1272,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1162,6 +1284,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1173,6 +1296,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1184,6 +1308,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1195,6 +1320,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1206,6 +1332,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1217,6 +1344,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1228,6 +1356,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1239,6 +1368,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1250,6 +1380,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1261,6 +1392,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1272,6 +1404,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1283,6 +1416,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1294,6 +1428,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1305,6 +1440,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1316,6 +1452,7 @@
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C25133</field>
         <field name="LCSC Part #">C25133</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1327,6 +1464,7 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="LCSC">C2286</field>
         <field name="LCSC Part #">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -1338,6 +1476,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-2N7002_C8545.pdf</datasheet>
       <fields>
+        <field name="LCSC">C8545</field>
         <field name="LCSC Part #">C8545</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -1494,10 +1633,10 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="LCSC_Button" part="TS-1187A-B-A-B">
+    <libpart lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue">
       <fields>
         <field name="Reference">S</field>
-        <field name="Value">TS-1187A-B-A-B</field>
+        <field name="Value">TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue</field>
         <field name="Footprint">SW_TS-1187A-B-A-B</field>
         <field name="Datasheet">A0</field>
         <field name="Field4">1.5mm</field>
@@ -1774,8 +1913,8 @@
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
-    <library logical="LCSC_Button">
-      <uri>C:\Users\Shaun\Documents\GitHub\STM-LED-Driver\hardware\LED Driver STM\library\TS-1187A-B-A-B.lib</uri>
+    <library logical="LED-Driver-STM-rescue">
+      <uri>C:\Users\Shaun\Documents\GitHub\STM-LED-Driver\hardware\LED-Driver-STM/LED Driver STM-rescue.lib</uri>
     </library>
     <library logical="MCU_ST_STM32F0">
       <uri>C:\Program Files\KiCad\share\kicad\library/MCU_ST_STM32F0.lib</uri>
@@ -1794,515 +1933,515 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(D2-Pad1)">
+    <net code="1" name="/LED13">
+      <node ref="U1" pin="21"/>
+      <node ref="Q13" pin="1"/>
+    </net>
+    <net code="2" name="/LED14">
+      <node ref="Q14" pin="1"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="3" name="/LED15">
+      <node ref="U1" pin="27"/>
+      <node ref="Q15" pin="1"/>
+    </net>
+    <net code="4" name="/LED16">
+      <node ref="Q16" pin="1"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="5" name="/LED17">
+      <node ref="Q17" pin="1"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="6" name="/LED18">
+      <node ref="U1" pin="38"/>
+      <node ref="Q18" pin="1"/>
+    </net>
+    <net code="7" name="/LED19">
+      <node ref="U1" pin="33"/>
+      <node ref="Q19" pin="1"/>
+    </net>
+    <net code="8" name="/LED20">
+      <node ref="U1" pin="32"/>
+      <node ref="Q20" pin="1"/>
+    </net>
+    <net code="9" name="/LED2">
+      <node ref="U1" pin="3"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D2-Pad1)">
       <node ref="D2" pin="1"/>
       <node ref="R7" pin="1"/>
     </net>
-    <net code="2" name="+3.3VA">
-      <node ref="U1" pin="9"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U4" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="L1" pin="2"/>
-      <node ref="C6" pin="1"/>
-    </net>
-    <net code="3" name="GND">
-      <node ref="U4" pin="5"/>
-      <node ref="U3" pin="10"/>
-      <node ref="U4" pin="10"/>
-      <node ref="Q4" pin="2"/>
-      <node ref="U4" pin="12"/>
+    <net code="11" name="GND">
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
       <node ref="C12" pin="2"/>
       <node ref="C13" pin="2"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="J1" pin="4"/>
-      <node ref="R7" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="U3" pin="11"/>
-      <node ref="Y1" pin="2"/>
-      <node ref="C10" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="47"/>
       <node ref="SW1" pin="B"/>
       <node ref="SW1" pin="A"/>
       <node ref="C2" pin="2"/>
       <node ref="U1" pin="23"/>
-      <node ref="U1" pin="47"/>
-      <node ref="U1" pin="8"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="Y1" pin="4"/>
-      <node ref="J3" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="SW2" pin="B"/>
-      <node ref="U3" pin="12"/>
-      <node ref="U3" pin="13"/>
-      <node ref="U3" pin="14"/>
-      <node ref="U3" pin="8"/>
-      <node ref="SW2" pin="A"/>
       <node ref="C3" pin="2"/>
-      <node ref="U3" pin="9"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="Q11" pin="2"/>
-      <node ref="Q18" pin="2"/>
+      <node ref="SW2" pin="A"/>
+      <node ref="SW2" pin="B"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="Q14" pin="2"/>
+      <node ref="Q13" pin="2"/>
       <node ref="Q12" pin="2"/>
+      <node ref="Q11" pin="2"/>
       <node ref="Q10" pin="2"/>
       <node ref="Q9" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="SW3" pin="A"/>
-      <node ref="Q8" pin="2"/>
-      <node ref="Q15" pin="2"/>
-      <node ref="SW3" pin="B"/>
-      <node ref="Q14" pin="2"/>
-      <node ref="Q16" pin="2"/>
-      <node ref="Q13" pin="2"/>
-      <node ref="Q17" pin="2"/>
-      <node ref="Q6" pin="2"/>
       <node ref="Q20" pin="2"/>
-      <node ref="Q5" pin="2"/>
-      <node ref="Q7" pin="2"/>
       <node ref="Q19" pin="2"/>
+      <node ref="Q18" pin="2"/>
+      <node ref="Q17" pin="2"/>
+      <node ref="Q16" pin="2"/>
+      <node ref="Q15" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U4" pin="10"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="SW3" pin="A"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J3" pin="1"/>
+      <node ref="SW3" pin="B"/>
     </net>
-    <net code="4" name="+3V3">
-      <node ref="D18" pin="2"/>
-      <node ref="D22" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U1" pin="24"/>
-      <node ref="U3" pin="15"/>
-      <node ref="D17" pin="2"/>
-      <node ref="U3" pin="16"/>
-      <node ref="R1" pin="1"/>
-      <node ref="D21" pin="2"/>
-      <node ref="C10" pin="1"/>
-      <node ref="D20" pin="2"/>
-      <node ref="D19" pin="2"/>
-      <node ref="U1" pin="48"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="D8" pin="2"/>
-      <node ref="D5" pin="2"/>
-      <node ref="D6" pin="2"/>
-      <node ref="D4" pin="2"/>
-      <node ref="D3" pin="2"/>
-      <node ref="D7" pin="2"/>
-      <node ref="D14" pin="2"/>
-      <node ref="U2" pin="2"/>
-      <node ref="D15" pin="2"/>
-      <node ref="D16" pin="2"/>
-      <node ref="D9" pin="2"/>
-      <node ref="D10" pin="2"/>
-      <node ref="D11" pin="2"/>
-      <node ref="U4" pin="14"/>
-      <node ref="D12" pin="2"/>
-      <node ref="D13" pin="2"/>
-      <node ref="R5" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="L1" pin="1"/>
-      <node ref="J1" pin="3"/>
-      <node ref="D2" pin="2"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="5" name="/SW1">
-      <node ref="SW3" pin="D"/>
-      <node ref="SW3" pin="C"/>
-      <node ref="R6" pin="2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="6" name="/LED3">
-      <node ref="U1" pin="4"/>
-      <node ref="Q3" pin="1"/>
-    </net>
-    <net code="7" name="/LED4">
-      <node ref="Q4" pin="1"/>
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="8" name="/LED2">
-      <node ref="Q2" pin="1"/>
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="9" name="/LED13">
-      <node ref="U1" pin="22"/>
-      <node ref="Q13" pin="1"/>
-    </net>
-    <net code="10" name="/LED5">
-      <node ref="Q5" pin="1"/>
-      <node ref="U1" pin="19"/>
-    </net>
-    <net code="11" name="/LED6">
-      <node ref="U1" pin="20"/>
-      <node ref="Q6" pin="1"/>
-    </net>
-    <net code="12" name="/LED7">
-      <node ref="Q7" pin="1"/>
-      <node ref="U1" pin="39"/>
-    </net>
-    <net code="13" name="/LED8">
-      <node ref="U1" pin="40"/>
-      <node ref="Q8" pin="1"/>
-    </net>
-    <net code="14" name="/LED9">
-      <node ref="U1" pin="41"/>
-      <node ref="Q9" pin="1"/>
-    </net>
-    <net code="15" name="/LED10">
-      <node ref="U1" pin="45"/>
-      <node ref="Q10" pin="1"/>
-    </net>
-    <net code="16" name="/LED11">
-      <node ref="Q11" pin="1"/>
-      <node ref="U1" pin="46"/>
-    </net>
-    <net code="17" name="/LED12">
-      <node ref="U1" pin="21"/>
-      <node ref="Q12" pin="1"/>
-    </net>
-    <net code="18" name="/LED14">
-      <node ref="Q14" pin="1"/>
-      <node ref="U1" pin="25"/>
-    </net>
-    <net code="19" name="/LED15">
-      <node ref="Q15" pin="1"/>
-      <node ref="U1" pin="26"/>
-    </net>
-    <net code="20" name="/LED16">
-      <node ref="U1" pin="27"/>
-      <node ref="Q16" pin="1"/>
-    </net>
-    <net code="21" name="/LED17">
-      <node ref="Q17" pin="1"/>
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="22" name="/LED18">
-      <node ref="U1" pin="38"/>
-      <node ref="Q18" pin="1"/>
-    </net>
-    <net code="23" name="/LED19">
-      <node ref="U1" pin="33"/>
-      <node ref="Q19" pin="1"/>
-    </net>
-    <net code="24" name="/LED20">
-      <node ref="Q20" pin="1"/>
-      <node ref="U1" pin="32"/>
-    </net>
-    <net code="25" name="/LED1">
+    <net code="12" name="/LED1">
       <node ref="Q1" pin="1"/>
       <node ref="U1" pin="2"/>
     </net>
-    <net code="26" name="VCC">
-      <node ref="D1" pin="1"/>
-      <node ref="J3" pin="2"/>
+    <net code="13" name="/LED12">
+      <node ref="Q12" pin="1"/>
+      <node ref="U1" pin="26"/>
     </net>
-    <net code="27" name="Net-(C7-Pad1)">
-      <node ref="C9" pin="1"/>
-      <node ref="U2" pin="3"/>
-      <node ref="D1" pin="2"/>
-      <node ref="C7" pin="1"/>
+    <net code="14" name="/LED3">
+      <node ref="U1" pin="4"/>
+      <node ref="Q3" pin="1"/>
     </net>
-    <net code="28" name="/IO3">
-      <node ref="U1" pin="29"/>
-      <node ref="J2" pin="3"/>
+    <net code="15" name="/LED4">
+      <node ref="Q4" pin="1"/>
+      <node ref="U1" pin="18"/>
     </net>
-    <net code="29" name="/IO1">
-      <node ref="U1" pin="35"/>
-      <node ref="J2" pin="1"/>
+    <net code="16" name="/LED5">
+      <node ref="Q5" pin="1"/>
+      <node ref="U1" pin="19"/>
     </net>
-    <net code="30" name="/IO2">
-      <node ref="U1" pin="36"/>
-      <node ref="J2" pin="2"/>
+    <net code="17" name="/LED6">
+      <node ref="Q6" pin="1"/>
+      <node ref="U1" pin="20"/>
     </net>
-    <net code="31" name="/IO4">
-      <node ref="U1" pin="30"/>
-      <node ref="J2" pin="4"/>
+    <net code="18" name="/LED7">
+      <node ref="Q7" pin="1"/>
+      <node ref="U1" pin="39"/>
     </net>
-    <net code="32" name="/IO5">
-      <node ref="U1" pin="31"/>
-      <node ref="J2" pin="5"/>
+    <net code="19" name="/LED8">
+      <node ref="Q8" pin="1"/>
+      <node ref="U1" pin="40"/>
     </net>
-    <net code="33" name="Net-(J8-Pad1)">
-      <node ref="U4" pin="16"/>
-      <node ref="J8" pin="1"/>
+    <net code="20" name="/LED9">
+      <node ref="Q9" pin="1"/>
+      <node ref="U1" pin="41"/>
     </net>
-    <net code="34" name="Net-(J8-Pad2)">
-      <node ref="J8" pin="2"/>
-      <node ref="U4" pin="15"/>
+    <net code="21" name="/LED10">
+      <node ref="U1" pin="46"/>
+      <node ref="Q10" pin="1"/>
     </net>
-    <net code="35" name="Net-(J8-Pad3)">
-      <node ref="J8" pin="3"/>
-      <node ref="U4" pin="13"/>
+    <net code="22" name="/LED11">
+      <node ref="U1" pin="45"/>
+      <node ref="Q11" pin="1"/>
     </net>
-    <net code="36" name="Net-(J4-Pad1)">
+    <net code="23" name="+3.3VA">
+      <node ref="U1" pin="9"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="24" name="+3V3">
+      <node ref="D8" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="D20" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="D12" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="3"/>
       <node ref="J4" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="48"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="1"/>
     </net>
-    <net code="37" name="/NRST">
-      <node ref="U1" pin="7"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="SW1" pin="C"/>
-      <node ref="SW1" pin="D"/>
-      <node ref="J4" pin="5"/>
+    <net code="25" name="/SW1">
+      <node ref="C5" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="SW3" pin="C"/>
+      <node ref="SW3" pin="D"/>
     </net>
-    <net code="38" name="Net-(J7-Pad1)">
+    <net code="26" name="/SDA">
+      <node ref="U1" pin="43"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="27" name="/SCL">
+      <node ref="R5" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="28" name="Net-(J8-Pad3)">
+      <node ref="U4" pin="13"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="29" name="Net-(J7-Pad1)">
       <node ref="U3" pin="7"/>
       <node ref="J7" pin="1"/>
     </net>
-    <net code="39" name="/SCL">
-      <node ref="R5" pin="2"/>
-      <node ref="U1" pin="42"/>
-    </net>
-    <net code="40" name="/SDA">
-      <node ref="R4" pin="2"/>
-      <node ref="U1" pin="43"/>
-    </net>
-    <net code="41" name="Net-(J7-Pad2)">
+    <net code="30" name="Net-(J7-Pad2)">
       <node ref="J7" pin="2"/>
       <node ref="U3" pin="6"/>
     </net>
-    <net code="42" name="Net-(J6-Pad1)">
+    <net code="31" name="Net-(J6-Pad1)">
       <node ref="J6" pin="1"/>
       <node ref="U4" pin="9"/>
     </net>
-    <net code="43" name="Net-(J6-Pad2)">
-      <node ref="U4" pin="11"/>
+    <net code="32" name="Net-(J6-Pad2)">
       <node ref="J6" pin="2"/>
+      <node ref="U4" pin="11"/>
     </net>
-    <net code="44" name="Net-(J1-Pad1)">
-      <node ref="J1" pin="1"/>
+    <net code="33" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2"/>
+      <node ref="U4" pin="15"/>
     </net>
-    <net code="45" name="Net-(J1-Pad2)">
-      <node ref="J1" pin="2"/>
+    <net code="34" name="VCC">
+      <node ref="J3" pin="2"/>
+      <node ref="D1" pin="1"/>
     </net>
-    <net code="46" name="/SWDIO">
-      <node ref="J4" pin="4"/>
+    <net code="35" name="/SWDIO">
       <node ref="U1" pin="34"/>
+      <node ref="J4" pin="4"/>
     </net>
-    <net code="47" name="/SWCLK">
-      <node ref="U1" pin="37"/>
+    <net code="36" name="/SWCLK">
       <node ref="J4" pin="2"/>
+      <node ref="U1" pin="37"/>
     </net>
-    <net code="48" name="Net-(J4-Pad3)">
-      <node ref="J4" pin="3"/>
+    <net code="37" name="/IO3">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="31"/>
     </net>
-    <net code="49" name="/BOOT0">
+    <net code="38" name="/IO5">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="39" name="/IO1">
+      <node ref="U1" pin="29"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="40" name="/IO2">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="41" name="/IO4">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="42" name="Net-(J8-Pad1)">
+      <node ref="J8" pin="1"/>
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="43" name="/NRST">
+      <node ref="SW1" pin="D"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J4" pin="5"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="SW1" pin="C"/>
+    </net>
+    <net code="44" name="/BOOT0">
       <node ref="U1" pin="44"/>
-      <node ref="SW2" pin="D"/>
       <node ref="R2" pin="2"/>
       <node ref="C3" pin="1"/>
       <node ref="SW2" pin="C"/>
+      <node ref="SW2" pin="D"/>
     </net>
-    <net code="50" name="/ADC2">
-      <node ref="U1" pin="11"/>
-      <node ref="J5" pin="2"/>
+    <net code="45" name="/SCK">
+      <node ref="U1" pin="15"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="4"/>
     </net>
-    <net code="51" name="Net-(C4-Pad1)">
-      <node ref="R3" pin="2"/>
+    <net code="46" name="/HSE_OUT">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="47" name="Net-(C4-Pad1)">
       <node ref="Y1" pin="3"/>
       <node ref="C4" pin="1"/>
+      <node ref="R3" pin="2"/>
     </net>
-    <net code="52" name="/HSE_IN">
+    <net code="48" name="/HSE_IN">
+      <node ref="C1" pin="1"/>
       <node ref="U1" pin="5"/>
       <node ref="Y1" pin="1"/>
-      <node ref="C1" pin="1"/>
     </net>
-    <net code="53" name="/HSE_OUT">
-      <node ref="U1" pin="6"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="54" name="/ADC1">
+    <net code="49" name="/ADC1">
       <node ref="J5" pin="1"/>
       <node ref="U1" pin="10"/>
     </net>
-    <net code="55" name="/MISO">
+    <net code="50" name="/MISO">
+      <node ref="U4" pin="7"/>
       <node ref="U3" pin="4"/>
       <node ref="U1" pin="16"/>
-      <node ref="U4" pin="7"/>
     </net>
-    <net code="56" name="/SCK">
-      <node ref="U3" pin="2"/>
-      <node ref="U4" pin="4"/>
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="57" name="/MOSI">
-      <node ref="U1" pin="17"/>
+    <net code="51" name="/MOSI">
       <node ref="U3" pin="3"/>
+      <node ref="U1" pin="17"/>
       <node ref="U4" pin="6"/>
     </net>
-    <net code="58" name="/CS1">
+    <net code="52" name="/CS1">
       <node ref="U1" pin="14"/>
       <node ref="U4" pin="8"/>
     </net>
-    <net code="59" name="/CS2">
-      <node ref="U3" pin="5"/>
-      <node ref="U1" pin="13"/>
+    <net code="53" name="/ADC2">
+      <node ref="U1" pin="11"/>
+      <node ref="J5" pin="2"/>
     </net>
-    <net code="60" name="Net-(U4-Pad2)">
+    <net code="54" name="Net-(C7-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="55" name="/CS2">
+      <node ref="U1" pin="13"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="56" name="Net-(U4-Pad2)">
       <node ref="U4" pin="2"/>
     </net>
-    <net code="61" name="Net-(U4-Pad3)">
+    <net code="57" name="Net-(U4-Pad3)">
       <node ref="U4" pin="3"/>
     </net>
-    <net code="62" name="Net-(D3-Pad1)">
+    <net code="58" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1"/>
       <node ref="R8" pin="1"/>
     </net>
-    <net code="63" name="Net-(Q1-Pad3)">
-      <node ref="R8" pin="2"/>
-      <node ref="Q1" pin="3"/>
-    </net>
-    <net code="64" name="Net-(Q2-Pad3)">
+    <net code="60" name="Net-(Q2-Pad3)">
       <node ref="Q2" pin="3"/>
       <node ref="R9" pin="2"/>
     </net>
-    <net code="65" name="Net-(D4-Pad1)">
-      <node ref="D4" pin="1"/>
+    <net code="61" name="Net-(D4-Pad1)">
       <node ref="R9" pin="1"/>
+      <node ref="D4" pin="1"/>
     </net>
-    <net code="66" name="Net-(Q3-Pad3)">
-      <node ref="R10" pin="2"/>
-      <node ref="Q3" pin="3"/>
-    </net>
-    <net code="67" name="Net-(D5-Pad1)">
-      <node ref="D5" pin="1"/>
+    <net code="62" name="Net-(D5-Pad1)">
       <node ref="R10" pin="1"/>
+      <node ref="D5" pin="1"/>
     </net>
-    <net code="68" name="Net-(Q4-Pad3)">
-      <node ref="Q4" pin="3"/>
+    <net code="63" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="64" name="Net-(Q4-Pad3)">
       <node ref="R11" pin="2"/>
+      <node ref="Q4" pin="3"/>
     </net>
-    <net code="69" name="Net-(D6-Pad1)">
-      <node ref="R11" pin="1"/>
+    <net code="65" name="Net-(D6-Pad1)">
       <node ref="D6" pin="1"/>
+      <node ref="R11" pin="1"/>
     </net>
-    <net code="70" name="Net-(Q5-Pad3)">
-      <node ref="Q5" pin="3"/>
+    <net code="66" name="Net-(Q5-Pad3)">
       <node ref="R12" pin="2"/>
+      <node ref="Q5" pin="3"/>
     </net>
-    <net code="71" name="Net-(D7-Pad1)">
-      <node ref="R12" pin="1"/>
+    <net code="67" name="Net-(D7-Pad1)">
       <node ref="D7" pin="1"/>
+      <node ref="R12" pin="1"/>
     </net>
-    <net code="72" name="Net-(Q6-Pad3)">
-      <node ref="Q6" pin="3"/>
+    <net code="68" name="Net-(Q6-Pad3)">
       <node ref="R13" pin="2"/>
+      <node ref="Q6" pin="3"/>
     </net>
-    <net code="73" name="Net-(D8-Pad1)">
+    <net code="69" name="Net-(D8-Pad1)">
       <node ref="D8" pin="1"/>
       <node ref="R13" pin="1"/>
     </net>
-    <net code="74" name="Net-(Q7-Pad3)">
+    <net code="70" name="Net-(Q7-Pad3)">
       <node ref="Q7" pin="3"/>
       <node ref="R14" pin="2"/>
     </net>
-    <net code="75" name="Net-(D9-Pad1)">
-      <node ref="R14" pin="1"/>
+    <net code="71" name="Net-(D9-Pad1)">
       <node ref="D9" pin="1"/>
+      <node ref="R14" pin="1"/>
     </net>
-    <net code="76" name="Net-(Q8-Pad3)">
-      <node ref="R15" pin="2"/>
+    <net code="72" name="Net-(Q8-Pad3)">
       <node ref="Q8" pin="3"/>
+      <node ref="R15" pin="2"/>
     </net>
-    <net code="77" name="Net-(D10-Pad1)">
+    <net code="73" name="Net-(D10-Pad1)">
       <node ref="R15" pin="1"/>
       <node ref="D10" pin="1"/>
     </net>
-    <net code="78" name="Net-(Q9-Pad3)">
+    <net code="74" name="Net-(Q9-Pad3)">
       <node ref="R16" pin="2"/>
       <node ref="Q9" pin="3"/>
     </net>
-    <net code="79" name="Net-(D11-Pad1)">
-      <node ref="D11" pin="1"/>
+    <net code="75" name="Net-(D11-Pad1)">
       <node ref="R16" pin="1"/>
+      <node ref="D11" pin="1"/>
     </net>
-    <net code="80" name="Net-(Q10-Pad3)">
+    <net code="76" name="Net-(Q10-Pad3)">
       <node ref="Q10" pin="3"/>
       <node ref="R17" pin="2"/>
     </net>
-    <net code="81" name="Net-(D12-Pad1)">
-      <node ref="R17" pin="1"/>
+    <net code="77" name="Net-(D12-Pad1)">
       <node ref="D12" pin="1"/>
+      <node ref="R17" pin="1"/>
     </net>
-    <net code="82" name="Net-(Q11-Pad3)">
-      <node ref="R18" pin="2"/>
-      <node ref="Q11" pin="3"/>
-    </net>
-    <net code="83" name="Net-(D13-Pad1)">
+    <net code="78" name="Net-(D13-Pad1)">
       <node ref="R18" pin="1"/>
       <node ref="D13" pin="1"/>
     </net>
-    <net code="84" name="Net-(Q12-Pad3)">
+    <net code="79" name="Net-(Q11-Pad3)">
+      <node ref="R18" pin="2"/>
+      <node ref="Q11" pin="3"/>
+    </net>
+    <net code="80" name="Net-(Q12-Pad3)">
       <node ref="Q12" pin="3"/>
       <node ref="R19" pin="2"/>
     </net>
-    <net code="85" name="Net-(D14-Pad1)">
-      <node ref="R19" pin="1"/>
+    <net code="81" name="Net-(D14-Pad1)">
       <node ref="D14" pin="1"/>
+      <node ref="R19" pin="1"/>
     </net>
-    <net code="86" name="Net-(D15-Pad1)">
-      <node ref="D15" pin="1"/>
-      <node ref="R20" pin="1"/>
-    </net>
-    <net code="87" name="Net-(Q13-Pad3)">
+    <net code="82" name="Net-(Q13-Pad3)">
       <node ref="R20" pin="2"/>
       <node ref="Q13" pin="3"/>
     </net>
-    <net code="88" name="Net-(Q14-Pad3)">
+    <net code="83" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="84" name="Net-(Q14-Pad3)">
       <node ref="Q14" pin="3"/>
       <node ref="R21" pin="2"/>
     </net>
-    <net code="89" name="Net-(D16-Pad1)">
+    <net code="85" name="Net-(D16-Pad1)">
       <node ref="R21" pin="1"/>
       <node ref="D16" pin="1"/>
     </net>
-    <net code="90" name="Net-(Q15-Pad3)">
-      <node ref="R22" pin="2"/>
+    <net code="86" name="Net-(Q15-Pad3)">
       <node ref="Q15" pin="3"/>
+      <node ref="R22" pin="2"/>
     </net>
-    <net code="91" name="Net-(D17-Pad1)">
+    <net code="87" name="Net-(D17-Pad1)">
       <node ref="R22" pin="1"/>
       <node ref="D17" pin="1"/>
     </net>
-    <net code="92" name="Net-(D18-Pad1)">
+    <net code="88" name="Net-(D18-Pad1)">
       <node ref="R23" pin="1"/>
       <node ref="D18" pin="1"/>
     </net>
-    <net code="93" name="Net-(Q16-Pad3)">
+    <net code="89" name="Net-(Q16-Pad3)">
       <node ref="Q16" pin="3"/>
       <node ref="R23" pin="2"/>
     </net>
-    <net code="94" name="Net-(Q17-Pad3)">
+    <net code="90" name="Net-(Q17-Pad3)">
       <node ref="Q17" pin="3"/>
       <node ref="R24" pin="2"/>
     </net>
-    <net code="95" name="Net-(D19-Pad1)">
+    <net code="91" name="Net-(D19-Pad1)">
       <node ref="R24" pin="1"/>
       <node ref="D19" pin="1"/>
     </net>
-    <net code="96" name="Net-(Q18-Pad3)">
-      <node ref="Q18" pin="3"/>
+    <net code="92" name="Net-(Q18-Pad3)">
       <node ref="R25" pin="2"/>
+      <node ref="Q18" pin="3"/>
     </net>
-    <net code="97" name="Net-(D20-Pad1)">
-      <node ref="D20" pin="1"/>
+    <net code="93" name="Net-(D20-Pad1)">
       <node ref="R25" pin="1"/>
+      <node ref="D20" pin="1"/>
     </net>
-    <net code="98" name="Net-(Q19-Pad3)">
+    <net code="94" name="Net-(Q19-Pad3)">
       <node ref="R26" pin="2"/>
       <node ref="Q19" pin="3"/>
     </net>
-    <net code="99" name="Net-(D21-Pad1)">
+    <net code="95" name="Net-(D21-Pad1)">
       <node ref="D21" pin="1"/>
       <node ref="R26" pin="1"/>
     </net>
-    <net code="100" name="Net-(Q20-Pad3)">
+    <net code="96" name="Net-(Q20-Pad3)">
       <node ref="Q20" pin="3"/>
       <node ref="R27" pin="2"/>
     </net>
-    <net code="101" name="Net-(D22-Pad1)">
+    <net code="97" name="Net-(D22-Pad1)">
       <node ref="D22" pin="1"/>
       <node ref="R27" pin="1"/>
     </net>

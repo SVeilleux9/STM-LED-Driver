@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name LCSC_Button)(type Legacy)(uri "C:/Users/Shaun/Documents/GitHub/STM-LED-Driver/hardware/LED Driver STM/library/TS-1187A-B-A-B.lib")(options "")(descr ""))
+  (lib (name LED-Driver-STM-rescue)(type Legacy)(uri "${KIPRJMOD}/LED Driver STM-rescue.lib")(options "")(descr ""))
 )
