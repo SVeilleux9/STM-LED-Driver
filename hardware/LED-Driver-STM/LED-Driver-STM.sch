@@ -116,7 +116,7 @@ F 5 "C15195" H 1000 1700 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-Driver-STM-rescue:TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue SW1
+L LED-Driver-STM-rescue:TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue-LED-Driver-STM-rescue SW1
 U 1 1 5F7153FD
 P 700 1900
 F 0 "SW1" V 746 1852 50  0000 R CNN
@@ -197,7 +197,7 @@ F 5 "C15195" H 1000 2650 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-Driver-STM-rescue:TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue SW2
+L LED-Driver-STM-rescue:TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue-LED-Driver-STM-rescue SW2
 U 1 1 5F71DB9F
 P 700 2850
 F 0 "SW2" V 746 2802 50  0000 R CNN
@@ -958,7 +958,7 @@ F 5 "C15195" H 1950 2650 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-Driver-STM-rescue:TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue SW3
+L LED-Driver-STM-rescue:TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue-LED-Driver-STM-rescue SW3
 U 1 1 5F86A090
 P 1650 2850
 F 0 "SW3" V 1696 2802 50  0000 R CNN

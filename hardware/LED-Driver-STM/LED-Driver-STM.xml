@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Shaun\Documents\GitHub\STM-LED-Driver\hardware\LED-Driver-STM\LED-Driver-STM.sch</source>
-    <date>9/27/2020 4:34:41 PM</date>
+    <date>9/29/2020 12:28:26 PM</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -323,7 +323,7 @@
         <field name="LCSC">C318884</field>
         <field name="LCSC Part #">C318884</field>
       </fields>
-      <libsource lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue" description=""/>
+      <libsource lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue-LED-Driver-STM-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7153FD</tstamp>
     </comp>
@@ -359,7 +359,7 @@
         <field name="LCSC">C318884</field>
         <field name="LCSC Part #">C318884</field>
       </fields>
-      <libsource lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue" description=""/>
+      <libsource lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue-LED-Driver-STM-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F71DB9F</tstamp>
     </comp>
@@ -563,7 +563,7 @@
         <field name="LCSC">C318884</field>
         <field name="LCSC Part #">C318884</field>
       </fields>
-      <libsource lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue" description=""/>
+      <libsource lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue-LED-Driver-STM-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F86A090</tstamp>
     </comp>
@@ -1633,10 +1633,10 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue">
+    <libpart lib="LED-Driver-STM-rescue" part="TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue-LED-Driver-STM-rescue">
       <fields>
         <field name="Reference">S</field>
-        <field name="Value">TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue</field>
+        <field name="Value">TS-1187A-B-A-B-LCSC_Button-LED-Driver-STM-rescue-LED-Driver-STM-rescue</field>
         <field name="Footprint">SW_TS-1187A-B-A-B</field>
         <field name="Datasheet">A0</field>
         <field name="Field4">1.5mm</field>
