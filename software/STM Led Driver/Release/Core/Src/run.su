@@ -1,0 +1,2 @@
+pin.h:10:13:const void pin::setLow()	8	static
+run.cpp:4:6:void run()	200	static
