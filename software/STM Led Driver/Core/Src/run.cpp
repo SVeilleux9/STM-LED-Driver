@@ -37,8 +37,9 @@ void run(){
 
 	while (1){
 		LEDS[19].setHigh();
-		txBuff[0] = 0x0F;
-		accellerometer.read(txBuff, rxBuff, 2);
+		txBuff[0] = 0x29;
+		rxBuff[0] = 0x00;
+		accellerometer.read(txBuff, rxBuff, 1);
 		LEDS[19].setLow();
 
 		for(size_t i=0; i<8; i++){
@@ -49,7 +50,7 @@ void run(){
 			}
 		}
 		LEDS[18].toggle();
-		HAL_Delay(1000);
+		HAL_Delay(10);
 //		cnt = (cnt+1)%20;
 	}
 

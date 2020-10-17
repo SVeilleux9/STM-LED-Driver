@@ -1,3 +1,4 @@
-LIS3DH.h:28:7:void LIS3DH::write(std::array<unsigned char, 2>)	16	static
 pin.h:10:13:const void pin::setLow()	8	static
+pin.h:11:13:const void pin::setHigh()	8	static
+LIS3DH.h:34:7:void LIS3DH::write(std::array<unsigned char, 2>)	24	static
 run.cpp:4:6:void run()	208	static
