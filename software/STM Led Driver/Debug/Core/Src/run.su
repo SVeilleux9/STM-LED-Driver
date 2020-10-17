@@ -1,3 +1,0 @@
-run.h:8:2:pin::pin(GPIO_TypeDef*, uint16_t)	24	static
-run.h:9:13:const void pin::toggle()	16	static
-run.cpp:5:6:void run()	184	static

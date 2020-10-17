@@ -27,18 +27,25 @@ void run(){
 		LEDS[i].setLow();
 	}
 
+	HAL_Delay(3000);
+
+	uint8_t rxBuff[1] = {0};
+	uint8_t txBuff[1] = {0};
+
 	LIS3DH accellerometer;
+//	accellerometer.write();
 
 	while (1){
 		LEDS[19].setHigh();
-		uint8_t data = accellerometer.read();
+		txBuff[0] = 0x0F;
+		accellerometer.read(txBuff, rxBuff, 2);
 		LEDS[19].setLow();
 
 		for(size_t i=0; i<8; i++){
-			if(data & (1 << i)){
-				LEDS[7-i].setHigh();
+			if(rxBuff[0] & (1 << i)){
+				LEDS[i].setHigh();
 			}else{
-				LEDS[7-i].setLow();
+				LEDS[i].setLow();
 			}
 		}
 		LEDS[18].toggle();

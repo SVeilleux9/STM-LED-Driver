@@ -61,8 +61,8 @@ LED\ Driver\ STM.bin \
 all: LED\ Driver\ STM.elf secondary-outputs
 
 # Tool invocations
-LED\ Driver\ STM.elf: $(OBJS) $(USER_OBJS) C:\Users\Shaun\STM32CubeIDE\workspace_1.4.0\LED\ Driver\ STM\STM32F030C8TX_FLASH.ld
-	arm-none-eabi-g++ -o "LED Driver STM.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"C:\Users\Shaun\STM32CubeIDE\workspace_1.4.0\LED Driver STM\STM32F030C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED Driver STM.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+LED\ Driver\ STM.elf: $(OBJS) $(USER_OBJS) C:\Users\Shaun\Documents\GitHub\STM-LED-Driver\software\STM\ Led\ Driver\STM32F030C8TX_FLASH.ld
+	arm-none-eabi-g++ -o "LED Driver STM.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"C:\Users\Shaun\Documents\GitHub\STM-LED-Driver\software\STM Led Driver\STM32F030C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LED Driver STM.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

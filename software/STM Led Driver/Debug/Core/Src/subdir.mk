@@ -11,6 +11,7 @@ C_SRCS += \
 ../Core/Src/system_stm32f0xx.c 
 
 CPP_SRCS += \
+../Core/Src/LIS3DH.cpp \
 ../Core/Src/main.cpp \
 ../Core/Src/run.cpp 
 
@@ -22,6 +23,7 @@ C_DEPS += \
 ./Core/Src/system_stm32f0xx.d 
 
 OBJS += \
+./Core/Src/LIS3DH.o \
 ./Core/Src/main.o \
 ./Core/Src/run.o \
 ./Core/Src/stm32f0xx_hal_msp.o \
@@ -31,11 +33,14 @@ OBJS += \
 ./Core/Src/system_stm32f0xx.o 
 
 CPP_DEPS += \
+./Core/Src/LIS3DH.d \
 ./Core/Src/main.d \
 ./Core/Src/run.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
+Core/Src/LIS3DH.o: ../Core/Src/LIS3DH.cpp
+	arm-none-eabi-g++ "$<" -mcpu=cortex-m0 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/LIS3DH.d" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
 Core/Src/main.o: ../Core/Src/main.cpp
 	arm-none-eabi-g++ "$<" -mcpu=cortex-m0 -std=gnu++14 -g3 -DUSE_HAL_DRIVER -DSTM32F030x8 -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
 Core/Src/run.o: ../Core/Src/run.cpp

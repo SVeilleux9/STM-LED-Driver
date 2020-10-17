@@ -1,4 +1,4 @@
-Core/Src/run.o: ../Core/Src/run.cpp ../Core/Inc/run.h \
+Core/Src/LIS3DH.o: ../Core/Src/LIS3DH.cpp ../Core/Inc/LIS3DH.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
  ../Core/Inc/stm32f0xx_hal_conf.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h \
@@ -28,9 +28,10 @@ Core/Src/run.o: ../Core/Src/run.cpp ../Core/Inc/run.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h \
- ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h \
+ ../Core/Inc/pin.h ../Core/Inc/common.h
 
-../Core/Inc/run.h:
+../Core/Inc/LIS3DH.h:
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:
 
@@ -91,3 +92,7 @@ Core/Src/run.o: ../Core/Src/run.cpp ../Core/Inc/run.h \
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h:
+
+../Core/Inc/pin.h:
+
+../Core/Inc/common.h:
