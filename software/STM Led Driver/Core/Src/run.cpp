@@ -1,5 +1,9 @@
 #include <run.h>
 #include <LIS3DH.h>
+#include <math.h>
+
+#define PI 3.14159265
+#define PI2 1.57079632
 
 void run(){
 	pin LEDS[] {pin(GPIOA, GPIO_PIN_11),
@@ -27,31 +31,28 @@ void run(){
 		LEDS[i].setLow();
 	}
 
-	HAL_Delay(3000);
-
-	uint8_t rxBuff[1] = {0};
-	uint8_t txBuff[1] = {0};
-
 	LIS3DH accellerometer;
-//	accellerometer.write();
-
+	uint8_t lastLed=0;
 	while (1){
-		LEDS[19].setHigh();
-		txBuff[0] = 0x29;
-		rxBuff[0] = 0x00;
-		accellerometer.read(txBuff, rxBuff, 1);
-		LEDS[19].setLow();
+		//I dont know if the read should return a vector so you can read multiple things at once?
+		//Or if this is fine just calling read multiple times.
+		auto x = accellerometer.read({0x29});
+		auto y = accellerometer.read({0x2B});
 
-		for(size_t i=0; i<8; i++){
-			if(rxBuff[0] & (1 << i)){
-				LEDS[i].setHigh();
-			}else{
-				LEDS[i].setLow();
-			}
+		// Add PI because I want the angle in [0, 360]
+		float angle = (std::atan2(-1*(float)y[0],(float)x[0])+PI)*180/PI;
+
+		// This could be better, it does not have an equal window for LED 0 or 20  compared to the others
+		uint8_t currLed = floor((angle+9)/18);
+
+		// Set the LED pointing down on and turn last one off. This doesnt need this if statement technically
+		LEDS[currLed].setHigh();
+		if(currLed != lastLed){
+			LEDS[lastLed].setLow();
+			lastLed = currLed;
 		}
-		LEDS[18].toggle();
+
 		HAL_Delay(10);
-//		cnt = (cnt+1)%20;
 	}
 
 }

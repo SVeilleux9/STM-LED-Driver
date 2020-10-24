@@ -5,4 +5,4 @@ main.cpp:232:13:void MX_I2C1_Init()	8	static
 main.cpp:278:13:void MX_SPI1_Init()	8	static
 main.cpp:318:13:void MX_USART1_UART_Init()	8	static
 main.cpp:353:13:void MX_GPIO_Init()	56	static
-main.cpp:412:6:void Error_Handler()	8	static
+main.cpp:419:6:void Error_Handler()	8	static
