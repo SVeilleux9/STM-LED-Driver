@@ -3,7 +3,18 @@
 #include <math.h>
 
 #define PI 3.14159265
-#define PI2 1.57079632
+
+// Return value from [0,360]
+constexpr float calculateAngle(int8_t x, int8_t y){
+	float fy = -1*(float)y;
+	float fx = (float)x;
+	return std::atan2(fy,fx)*180/PI+180;
+}
+
+// This could be better, it does not have an equal window for LED 0 or 20  compared to the others
+constexpr uint8_t angleToLed(float angle){
+	return floor((angle+9)/18);
+}
 
 void run(){
 	pin LEDS[] {pin(GPIOA, GPIO_PIN_11),
@@ -27,30 +38,24 @@ void run(){
 				pin(GPIOA, GPIO_PIN_15),
 				pin(GPIOA, GPIO_PIN_12)};
 
-	for(size_t i = 0; i<19; i++){
-		LEDS[i].setLow();
-	}
+	//Have to set what Pin the CS is connected to.
+	LIS3DH accellerometer(pin(GPIOA, GPIO_PIN_4));
 
-	LIS3DH accellerometer;
 	uint8_t lastLed=0;
 	while (1){
 		//I dont know if the read should return a vector so you can read multiple things at once?
 		//Or if this is fine just calling read multiple times.
-		auto x = accellerometer.read({0x29});
-		auto y = accellerometer.read({0x2B});
+		auto x = accellerometer.getX();
+		auto y = accellerometer.getY();
+//		auto z = accellerometer.getZ(); //I dont use z-axis so I dont need it
 
-		// Add PI because I want the angle in [0, 360]
-		float angle = (std::atan2(-1*(float)y[0],(float)x[0])+PI)*180/PI;
+		auto angle = calculateAngle(x,y);
+		auto currLed = angleToLed(angle);
 
-		// This could be better, it does not have an equal window for LED 0 or 20  compared to the others
-		uint8_t currLed = floor((angle+9)/18);
-
-		// Set the LED pointing down on and turn last one off. This doesnt need this if statement technically
+		// Set the LED pointing down on and turn last one off.
+		LEDS[lastLed].setLow();
 		LEDS[currLed].setHigh();
-		if(currLed != lastLed){
-			LEDS[lastLed].setLow();
-			lastLed = currLed;
-		}
+		lastLed = currLed;
 
 		HAL_Delay(10);
 	}

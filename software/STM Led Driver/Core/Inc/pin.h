@@ -5,7 +5,10 @@
 class pin
 {
 public:
-	pin(GPIO_TypeDef* port, uint16_t pinNum) : m_port(port), m_pinNum(pinNum){};
+	pin(GPIO_TypeDef* port, uint16_t pinNum) : m_port(port), m_pinNum(pinNum){
+		//Initialize Everything of being off
+		setLow();
+	};
 	const void toggle(){ HAL_GPIO_TogglePin(m_port, m_pinNum); }
 	const void setLow(){ HAL_GPIO_WritePin(m_port, m_pinNum, GPIO_PIN_RESET); }
 	const void setHigh(){ HAL_GPIO_WritePin(m_port, m_pinNum, GPIO_PIN_SET); }
