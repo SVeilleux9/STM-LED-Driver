@@ -42,9 +42,8 @@ void run(){
 	LIS3DH accellerometer(pin(GPIOA, GPIO_PIN_4));
 
 	uint8_t lastLed=0;
+
 	while (1){
-		//I dont know if the read should return a vector so you can read multiple things at once?
-		//Or if this is fine just calling read multiple times.
 		auto x = accellerometer.getX();
 		auto y = accellerometer.getY();
 //		auto z = accellerometer.getZ(); //I dont use z-axis so I dont need it
@@ -57,7 +56,7 @@ void run(){
 		LEDS[currLed].setHigh();
 		lastLed = currLed;
 
-		HAL_Delay(10);
+//		HAL_Delay(10);
 	}
 
 }
