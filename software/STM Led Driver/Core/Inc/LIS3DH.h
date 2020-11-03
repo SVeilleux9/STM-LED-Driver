@@ -22,7 +22,7 @@ public:
 		return (int8_t)read(0x2B);
 	}
 
-	const int8_t getZ(){
+	const uint8_t getZ(){
 		return (int8_t)read(0x2D);
 	}
 
