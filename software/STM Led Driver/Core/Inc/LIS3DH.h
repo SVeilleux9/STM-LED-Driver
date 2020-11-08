@@ -1,6 +1,7 @@
 #pragma once
 
-#include "stm32f0xx_hal.h"
+#include "ch.h"
+#include "hal.h"
 #include "pin.h"
 #include "common.h"
 

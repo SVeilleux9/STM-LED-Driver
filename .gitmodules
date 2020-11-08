@@ -4,3 +4,6 @@
 [submodule "software/ChibiOS"]
 	path = software/ChibiOS
 	url = https://github.com/rusefi/ChibiOS.git
+[submodule "software/STM Led Driver/ChibiOS"]
+	path = software/STM Led Driver/ChibiOS
+	url = https://github.com/ChibiOS/ChibiOS.git
