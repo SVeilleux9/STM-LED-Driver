@@ -1,7 +1,5 @@
 #pragma once
 
-#include "ch.h"
-#include "hal.h"
 #include "pin.h"
 #include "common.h"
 

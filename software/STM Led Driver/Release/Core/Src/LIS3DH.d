@@ -1,5 +1,5 @@
 Core/Src/LIS3DH.o: ../Core/Src/LIS3DH.cpp ../Core/Inc/LIS3DH.h \
- ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
+ ../Core/Inc/pin.h ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h \
  ../Core/Inc/stm32f0xx_hal_conf.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h \
@@ -27,11 +27,15 @@ Core/Src/LIS3DH.o: ../Core/Src/LIS3DH.cpp ../Core/Inc/LIS3DH.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h \
+ ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h \
  ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h \
- ../Core/Inc/pin.h ../Core/Inc/common.h
+ ../Core/Inc/common.h
 
 ../Core/Inc/LIS3DH.h:
+
+../Core/Inc/pin.h:
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:
 
@@ -89,10 +93,12 @@ Core/Src/LIS3DH.o: ../Core/Src/LIS3DH.cpp ../Core/Inc/LIS3DH.h \
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h:
 
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:
+
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h:
+
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h:
 
 ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h:
-
-../Core/Inc/pin.h:
 
 ../Core/Inc/common.h:

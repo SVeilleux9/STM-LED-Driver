@@ -1,3 +1,6 @@
-main.cpp:126:6:void SystemClock_Config()	96	static
-main.cpp:77:5:int main()	64	static
-main.cpp:419:6:void Error_Handler()	0	static
+main.cpp:459:6:void StartDefaultTask(const void*)	8	static
+main.cpp:477:6:void startUpdateLeds(const void*)	8	static
+main.cpp:163:6:void SystemClock_Config()	96	static
+main.cpp:83:5:int main()	96	static
+main.cpp:493:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	8	static
+main.cpp:510:6:void Error_Handler()	0	static

@@ -1,3 +1,5 @@
+#include "cmsis_os.h"
+
 #include <run.h>
 #include <LIS3DH.h>
 #include <math.h>
@@ -13,7 +15,10 @@ constexpr float calculateAngle(int8_t x, int8_t y){
 
 // This could be better, it does not have an equal window for LED 0 or 20  compared to the others
 constexpr uint8_t angleToLed(float angle){
-	return floor((angle+9)/18);
+	uint8_t pin = floor(angle/18);
+	if(pin > 19) pin = 19;
+	if(pin < 0) pin = 0;
+	return pin;
 }
 
 void run(){
@@ -43,7 +48,8 @@ void run(){
 
 	uint8_t lastLed=0;
 
-	while (1){
+	for(;;){
+
 		auto x = accellerometer.getX();
 		auto y = accellerometer.getY();
 //		auto z = accellerometer.getZ(); //I dont use z-axis so I dont need it
@@ -56,7 +62,7 @@ void run(){
 		LEDS[currLed].setHigh();
 		lastLed = currLed;
 
-//		HAL_Delay(10);
+		osDelay(100);
 	}
 
 }
